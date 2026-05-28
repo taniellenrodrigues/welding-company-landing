@@ -19,7 +19,10 @@ body{
     font-size: 1.3em;
 }
 header{
-    background-color: var(--cor-02);
+    background-image: linear-gradient(to right, rgba(0,0,0.5), rgba(0, 0, 0,.1)), url(opcao03.jpg);
+    background-size: 160%;
+    background-position: left center;
+    background-repeat: no-repeat;
     position: relative;
 }
 header .topo{
@@ -28,17 +31,16 @@ header .topo{
     justify-content: space-around;
     align-items: center;
 }
-header h1{
+header .nome{
     color: var(--cor-05);
-    padding-left: 10px;
 }
 header .nav-list{
-    background-color: var(--cor-05);
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
     max-height: 0;
     overflow: hidden;
     text-align: center;
-    border-bottom: 3px solid var(--cor-02);
-    opacity: 0;
+    border-bottom: 3px solid var(--cor-01);
     transform: translate(-10px);
 
     transition: 0.3s ease;
@@ -54,7 +56,7 @@ li{
     letter-spacing: 2px;
 }
 header a{
-    color: var(--cor-02);
+    color: var(--cor-05);
     text-decoration: none;
 }
 .burguer{
@@ -67,6 +69,18 @@ header a{
         background-color: var(--cor-05);
         margin: 7px;
 }
+
+.button-top{
+    color: white;
+    padding: 20px;
+    width: 400px;
+    margin: 10px;
+}
+.button-top .texto-principal{
+        padding: 20px 0px;
+}
+
+
 
 main{
     background-color: var(--cor-03);
