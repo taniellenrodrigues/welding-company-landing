@@ -4,12 +4,13 @@ const topo = document.querySelector('.topo');
 
 burguer.addEventListener('click', () => {
     navList.classList.toggle('active');
+    burguer.classList.toggle('active');
 
 })
  window.addEventListener('scroll', () => {
-    if (window.scrollY > 20){
+    if (window.scrollY > 50){
         topo.classList.add('scrolled');
     } else{
-        topo.classList.remove(scrolled);
+        topo.classList.remove('scrolled');
     }
  });
