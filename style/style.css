@@ -19,9 +19,9 @@ body{
     font-size: 1.5em;
 }
 header{
-    background-image: linear-gradient(to right, rgba(0,0,0.75), rgba(0, 0, 0,.20)), url(opcao03.jpg);
-    background-size: 200%;
-    background-position: left center;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0, 0, 0, 0.20)), url(opcao03.jpg);
+    background-size: 220%;
+    background-position: 20% center;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -34,16 +34,24 @@ header .topo{
 header .nome{
     color: var(--cor-05);
 }
+nav{
+    position: relative;
+}
 header .nav-list{
-    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
+    
     max-height: 0;
     overflow: hidden;
     text-align: center;
     border-bottom: 1px solid var(--cor-01);
-    transform: translate(-10px);
 
-    transition: 0.3s ease;
+    transition: 0.7s ease;
 
 }
 .nav-list.active{
