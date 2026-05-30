@@ -20,16 +20,27 @@ body{
 }
 header{
     background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0, 0, 0, 0.20)), url(opcao03.jpg);
+    padding-top: 15vh;
     background-size: 220%;
     background-position: 20% center;
     background-repeat: no-repeat;
     position: relative;
 }
 header .topo{
-    height: 18vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    height: 15vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.topo.scrolled{
+    background-color: rgba(31, 34, 36, 0.95);
+    backdrop-filter: blur(8px);
 }
 header .nome{
     color: var(--cor-05);
@@ -38,13 +49,13 @@ nav{
     position: relative;
 }
 header .nav-list{
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 15vh;
     left: 0;
     width: 100%;
 
     background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(5px);
     
     max-height: 0;
     overflow: hidden;
