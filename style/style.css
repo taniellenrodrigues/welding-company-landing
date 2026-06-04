@@ -9,14 +9,16 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: white;
-    font-family: sans-serif;
-    font-size: 0.9em;
+    font-family:Arial, Helvetica, sans-serif;
     
 }
 header{
@@ -35,6 +37,10 @@ header{
   font-weight: 600;
   font-style: normal;
   letter-spacing: 4px;
+  
+}
+.texto-destaque{
+    color: var(--cor-01);
 }
 header .topo{
     color: var(--cor-05);
@@ -44,7 +50,7 @@ header .topo{
     width: 100%;
     z-index: 1000;
 
-    height: 15vh;
+    height: 12vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,7 +67,7 @@ nav{
 }
 header .nav-list{
     position: fixed;
-    top: 15vh;
+    top: 12vh;
     left: 0;
     width: 100%;
 
@@ -88,7 +94,6 @@ header a{
     text-decoration: none;
 }
 .burguer{
-    
     cursor: pointer;
 }
 .burguer div{
@@ -111,8 +116,8 @@ header a{
 }
 .hero{
     color: white;
-    padding: 25px 10px 25px 10px;
-    width: 300px;
+    padding: 25px 10px;
+    max-width: 350px;
 }
 .hero p{
     padding: 20px 0px;
@@ -126,36 +131,61 @@ header a{
 }
 
 main section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    scroll-margin-top: 15vh;
 }
 
-main h3{
+#sobre-nos h2{
     text-align: center;
     padding-top: 30px;
     letter-spacing: 4px;
 
 }
-main p{
+#sobre-nos p{
+    font-size: 0.9em;
     text-indent: 20px;
     text-align: left;
     line-height: 1.5;
     padding: 20px;
 }
- main .historia{
+main .historia{
+    display: block;
     background-color: var(--cor-01);
     color: white;
-    text-align: center;
+    width: fit-content;
+    margin: auto;
     text-decoration: none;
     font-size: 0.8em;
     padding: 5px 20px;
 }
 .img-nossa-historia{
-    width: 380px;
+    display: block;
+    width: 90%;
+    max-width: 380px;
     height: 200px;
-    object-fit: cover;
-    object-position: center;
+    margin: auto;
     padding-bottom: 10px;
+}
+main #servicos{
+    background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(pexels-felipe-silva-1458994757-30431684.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+#servicos h2{
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.card h3{
+    color: var(--cor-01);
+    font-weight: bolder;
+    padding: 10px;
+
+}
+.card p{
+    color: white;
+    padding: 0px 10px;
+    line-height: 1.5;
 }
