@@ -176,21 +176,45 @@ main #servicos{
 }
 #servicos h2{
     color: white;
-    padding: 10px;
+    padding: 10px 0px 30px;
     font-size: 1.5em;
     text-align: center;
 }
 .card{
     background: rgba(255, 255, 255, 0.05);
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 15px;
 }
 .card h3{
     color: var(--cor-01);
     font-weight: bolder;
+    letter-spacing: 2px;
 
 }
 .card p{
     color: white;
     line-height: 1.5;
+
+}
+
+#projetos h2{
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bolder;
+
+}
+#projetos .galeria{
+    display: flex;
+    gap: 15px;
+
+    overflow-x: auto;
+    padding: 20px;
+}
+.galeria img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 10px;
 }
