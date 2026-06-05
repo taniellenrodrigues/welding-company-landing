@@ -236,7 +236,7 @@ main #servicos{
 footer{
     background-color: var(--cor-05);
 }
-p{
+footer p{
     text-align: center;
     font-size: .6em;
 }
