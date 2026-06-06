@@ -149,7 +149,7 @@ main section{
     font-size: 0.9em;
     text-indent: 20px;
     text-align: left;
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 .historia, .botao{
