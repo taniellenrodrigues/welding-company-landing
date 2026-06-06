@@ -196,12 +196,11 @@ main #servicos{
     color: var(--cor-02);
     margin-right: 8px;
 }
-#servicos h2{
+#servicos > h2{
     color: white;
-    padding: 10px 0px 20px;
+    padding-bottom: 10px;
     font-size: 1.5em;
     text-align: center;
-    letter-spacing: 4px;
 }
 
 .card{
@@ -209,10 +208,10 @@ main #servicos{
     padding: 35px;
     margin-bottom: 15px;
     border-left: 4px solid var(--cor-01);
+    font-size: 1.4em;
 }
 .card h3, .cont h2{
     color: var(--cor-01);
-    font-weight: bolder;
     letter-spacing: 2px;
 
 }
@@ -222,7 +221,6 @@ main #servicos{
     padding-top: 5px;
     
 }
-
 #projetos h2{
     font-size: 1.5em;
     text-align: center;
