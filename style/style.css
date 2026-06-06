@@ -149,7 +149,7 @@ main section{
     font-size: 0.9em;
     text-indent: 20px;
     text-align: left;
-    padding: 20px;
+    padding: 5px;
 }
 
 .historia, .botao{
@@ -208,7 +208,7 @@ main #servicos{
     padding: 35px;
     margin-bottom: 15px;
     border-left: 4px solid var(--cor-01);
-    font-size: 1.4em;
+    font-size: 1em;
 }
 .card h3, .cont h2{
     color: var(--cor-01);
@@ -266,4 +266,17 @@ footer{
 footer p{
     text-align: center;
     font-size: .6em;
+}
+
+/* DEFINICÕES PARA AS CLASSES QUEM TEM COMO OBJETIVO CRIAR O SCROOL NA TELA*/
+
+.reveal{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.4s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
 }
