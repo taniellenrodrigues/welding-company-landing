@@ -176,17 +176,39 @@ main #servicos{
     padding: 20px 0px;
     margin: 20px 0px;
 }
+
+#diferenciais{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px ;
+    border: 1px solid var(--cor-02);
+}
+#diferenciais h2{
+    text-align: center;
+}
+#diferenciais ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+#diferenciais li::before{
+    content: "✔";
+    color: var(--cor-02);
+    margin-right: 8px;
+}
 #servicos h2{
     color: white;
-    padding: 10px 0px 30px;
+    padding: 10px 0px 20px;
     font-size: 1.5em;
     text-align: center;
     letter-spacing: 4px;
 }
-.card, .cont{
+
+.card{
     background: rgba(255, 255, 255, 0.05);
     padding: 35px;
     margin-bottom: 15px;
+    border-left: 4px solid var(--cor-01);
 }
 .card h3, .cont h2{
     color: var(--cor-01);
@@ -198,7 +220,7 @@ main #servicos{
     color: white;
     line-height: 1.5;
     padding-top: 5px;
-
+    
 }
 
 #projetos h2{
@@ -207,6 +229,12 @@ main #servicos{
     letter-spacing: 2px;
     font-weight: bolder;
 
+}
+#projetos p{
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: center;
 }
 #projetos .galeria{
     display: flex;
@@ -233,6 +261,7 @@ main #servicos{
     text-align: center;
     padding: 20px 0px;
 }
+
 footer{
     background-color: var(--cor-05);
 }
