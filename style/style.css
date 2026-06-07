@@ -265,6 +265,7 @@ footer{
 footer p{
     text-align: center;
     font-size: .6em;
+    padding: 5px;
 }
 
 /* DEFINICÕES PARA AS CLASSES QUEM TEM COMO OBJETIVO CRIAR O SCROOL NA TELA*/
@@ -279,3 +280,4 @@ footer p{
     opacity: 1;
     transform: translateY(0);
 }
+
