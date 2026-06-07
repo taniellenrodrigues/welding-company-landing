@@ -3,8 +3,6 @@
 :root{
     --cor-01: #FE7F20;
     --cor-02: #233D4D;
-    --cor-03: #FCCA46;
-    --cor-04: #adb1a2;
     --cor-05: white;
 }
 
@@ -76,7 +74,7 @@ header .nav-list{
     top: 12vh;
     left: 0;
     width: 100%;
-
+    z-index: 999;
     background-color: rgba(255, 255, 255, 0.839);
     
     max-height: 0;
@@ -105,20 +103,20 @@ header a{
 .burguer div{
 
     width: 25px;
-    height: 1px;
+    height: 2px;
     background-color: var(--cor-05);
     margin: 7px;
 
     transition: 0.5s ease;
 }
 .burguer.active .linha1{
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: translateY(10px) rotate(45deg);
 }
 .burguer.active .linha2{
     opacity: 0;
 }
 .burguer.active .linha3{
-    transform: rotate(-45deg) translate(6px, -6px);
+    transform: translateY(-8px) rotate(-45deg);
 }
 .hero{
     color: white;
@@ -178,23 +176,22 @@ main #servicos{
 }
 
 #diferenciais{
-    padding: 20px;
-    margin: 10px;
-    border-radius: 4px ;
-    border: 1px solid var(--cor-02);
+    padding: 10px 20px 0px;
 }
 #diferenciais h2{
     text-align: center;
-}
-#diferenciais ul{
-    list-style: none;
-    padding-left: 20px;
+    padding-bottom: 5px;
 }
 
-#diferenciais li::before{
+#diferenciais h3::before{
     content: "✔";
     color: var(--cor-02);
     margin-right: 8px;
+}
+.difere{
+    padding: 10px;
+    border: 1px solid var(--cor-01);
+    margin-bottom: 8px;
 }
 #servicos > h2{
     color: white;
@@ -221,6 +218,9 @@ main #servicos{
     padding-top: 5px;
     
 }
+#projetos{
+    margin: 30px 0px;
+}
 #projetos h2{
     font-size: 1.5em;
     text-align: center;
@@ -231,13 +231,12 @@ main #servicos{
 #projetos p{
     font-size: 1em;
     line-height: 1.5;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 }
 #projetos .galeria{
     display: flex;
     gap: 15px;
-
     overflow-x: auto;
     padding: 20px;
 }
