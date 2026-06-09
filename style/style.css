@@ -284,6 +284,13 @@ footer p{
 /*  VERSÃO TABLET  */
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    body{
+        font-size: 1.3em;
+    }
+    main h2{
+        margin: 20px 0;
+    }
+
     .hero{
         max-width: 500px;
         padding: 40px;
@@ -304,6 +311,9 @@ footer p{
     #diferenciais h2{
         grid-area: 1/1/2/3; 
     }
+    #diferenciais .difere{
+        height: 200px;
+    }
     #servicos{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -313,6 +323,9 @@ footer p{
     }
     #servicos h2{
         grid-area: 1/1/2/3;
+    }
+    #servicos .card{
+        height: 200px;
     }
 /*  VERSÃO DESKTOP  */
 
