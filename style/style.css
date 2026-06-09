@@ -60,7 +60,7 @@ header .topo{
     align-items: center;
 
     background-color: transparent;
-    transition: 2s ease;
+    transition: .3s ease;
 }
 .topo.scrolled{
     background-color: rgba(30, 30, 30, 0.85);
@@ -170,7 +170,7 @@ main section{
     padding-bottom: 10px;
 }
 main #servicos{
-    background-color: #233D4D;
+    background-color: var(--cor-02);
     padding: 20px 0px;
     margin: 20px 0px;
 }
@@ -331,7 +331,7 @@ footer p{
 
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
     body{
         font-size: 1.5em;
     }
@@ -426,6 +426,23 @@ footer p{
     #contatos{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .botao:hover, 
+    .historia:hover,
+    .hero a:hover{
+        opacity: .85;
+    }
+    .botao, .historia, .hero s{
+        transition: .3s;
+    }
+    .difere:hover{
+        transform: translateY(-10px);
+        transition: .3s;
+        
+    }
+    .card:hover{
+        transform: translateY(-10px);
+        transition: .3s;
     }
 
 }
