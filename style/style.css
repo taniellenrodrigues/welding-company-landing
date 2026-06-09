@@ -281,3 +281,139 @@ footer p{
     transform: translateY(0);
 }
 
+/*  VERSÃO TABLET  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero{
+        max-width: 500px;
+        padding: 40px;
+    }
+    .hero h2{
+        font-size: 2.2em;
+    }
+
+
+
+    #diferenciais{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        align-items: center; 
+        gap: 20px;
+    }
+    #diferenciais h2{
+        grid-area: 1/1/2/3; 
+    }
+    #servicos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        align-items: center; 
+        gap: 20px;
+    }
+    #servicos h2{
+        grid-area: 1/1/2/3;
+    }
+/*  VERSÃO DESKTOP  */
+
+}
+
+@media (min-width: 1023px) {
+    body{
+        font-size: 1.5em;
+    }
+
+    .burguer{
+        display: none;
+    }
+
+    
+    header .nav-list{
+        padding-right: 30px;
+        position: static;
+        display: flex;
+        max-height: none;
+        overflow: visible;
+        width: auto;
+        background-color: transparent;
+        gap: 15px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header .nav-list li{
+        list-style: none;
+        font-size: 25px;
+        
+    }
+    header a{
+        color: var(--cor-05);
+    }
+    header .topo{
+        padding: 0 50px;
+        display: flex;
+    }
+    header .hero{
+        max-width: 700px;
+        padding: 100px 60px;
+    }
+    .hero h2{
+        font-size: 2em;
+    }
+    #sobre-nos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px;
+    }
+    #sobre-nos img{
+        display: none;
+    }
+    #sobre-nos p{
+        text-align: justify;
+        margin: auto;
+    }
+
+    #diferenciais{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 170px 1fr;
+        gap: 5px;
+
+        margin: 70px 0;
+    }
+    #diferenciais h2{
+        grid-area: 1/1/2/5;
+    }
+    #servicos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        align-items: center; 
+        gap: 20px;
+
+        padding: 50px 0;
+    }
+
+    #servicos h2{
+        grid-area: 1/1/2/4;
+    }
+
+    #projetos{
+        margin: 70px 0;
+    }
+
+    #projetos img{
+        width: 500px;
+        height: 600px;
+    }
+
+    #contatos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
