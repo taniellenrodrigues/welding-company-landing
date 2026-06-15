@@ -1,4 +1,5 @@
-# Welding Company Landing Page   
+# Welding Company Landing Page   ]
+![Preview da Landing Page](preview.png)
 Landing page responsiva desenvolvida para uma empresa fictícia do setor de soldagem e estruturas metálicas.
 
 Este projeto foi criado com foco na prática de desenvolvimento front-end utilizando HTML5, CSS3 e JavaScript, aplicando conceitos de responsividade, organização de layout e interatividade.
