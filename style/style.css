@@ -145,6 +145,7 @@ main section{
 }
 #sobre-nos p{
     font-size: 0.9em;
+    text-align: justify;
     text-indent: 20px;
     text-align: left;
     padding: 5px 20px;
@@ -285,7 +286,7 @@ footer p{
 
 @media (min-width: 768px) and (max-width: 1023px) {
     body{
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     main h2{
         margin: 20px 0;
@@ -299,7 +300,11 @@ footer p{
         font-size: 2.2em;
     }
 
-
+    #sobre-nos img{
+        max-width: 900px;
+        width: 90%;
+        height: 400px;
+    }
 
     #diferenciais{
         display: grid;
@@ -333,7 +338,7 @@ footer p{
 
 @media (min-width: 1024px) {
     body{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .burguer{
@@ -382,7 +387,8 @@ footer p{
         margin: 40px;
     }
     #sobre-nos img{
-        display: none;
+        max-width: 550px;
+        height: 350px;
     }
     #sobre-nos p{
         text-align: justify;
