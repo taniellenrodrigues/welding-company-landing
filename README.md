@@ -1,9 +1,9 @@
-Welding Company Landing Page
+# Welding Company Landing Page   
 Landing page responsiva desenvolvida para uma empresa fictícia do setor de soldagem e estruturas metálicas.
 
 Este projeto foi criado com foco na prática de desenvolvimento front-end utilizando HTML5, CSS3 e JavaScript, aplicando conceitos de responsividade, organização de layout e interatividade.
 
-Funcionalidades
+## Funcionalidades
 
 * Menu hambúrguer para dispositivos móveis
 * Navegação suave entre seções
@@ -12,25 +12,21 @@ Funcionalidades
 * Galeria de projetos com rolagem horizontal
 * Design adaptado para empresas do setor industrial
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * HTML5
 * CSS3
 * JavaScript
 * Git e GitHub
 
-Objetivos do Projeto
+## Objetivos do Projeto
 
 * Praticar desenvolvimento responsivo (Mobile First)
 * Aplicar Flexbox e CSS Grid
 * Trabalhar com manipulação de classes via JavaScript
 * Publicar um projeto completo utilizando GitHub Pages
 
-Preview
-
-📸 
-
-Projeto Online
+## Projeto Online
 
 Acesse o projeto:
 
