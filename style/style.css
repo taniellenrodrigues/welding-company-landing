@@ -286,7 +286,7 @@ footer p{
 
 @media (min-width: 768px) and (max-width: 1023px) {
     body{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     main h2{
         margin: 20px 0;
@@ -338,7 +338,7 @@ footer p{
 
 @media (min-width: 1024px) {
     body{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .burguer{
