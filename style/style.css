@@ -299,6 +299,11 @@ footer p{
     .hero h2{
         font-size: 2.2em;
     }
+    
+    header{
+        background-size: 170%;
+        background-position: left;
+    }
 
     #sobre-nos img{
         max-width: 900px;
@@ -357,6 +362,10 @@ footer p{
         gap: 15px;
         justify-content: flex-end;
         align-items: center;
+    }
+    header{
+        background-size: 170%;
+        background-position: left;
     }
     header .nav-list li{
         list-style: none;
